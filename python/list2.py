@@ -1,0 +1,12 @@
+f=open("test.txt","w")
+f.write("my first file\n")
+f.write("name:varsha\n")
+f.write("qualification:MCA\n")
+f.write("place:kothamangalam\n")
+seq=["subinsa\n","MCA\n","paipra\n"]
+f.writelines(seq)
+f=open("test.txt",'r')
+str=f.read()
+print("read strings:",str)
+f.close()
+print(f.name,"is closed")

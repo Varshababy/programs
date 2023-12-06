@@ -1,0 +1,5 @@
+f=open("test.txt",'r')
+str=f.read(4)
+print("read strings:",str)
+f.close()
+print(f.name,"file closed")
